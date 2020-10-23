@@ -1,0 +1,22 @@
+.component-button-panel {
+  background: linear-gradient(160deg, green,red,purple,yellow);
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  flex: 1 0 auto;
+}
+
+.calculator-container{
+  display:flex;
+  flex-direction:column
+}
+.screen{
+  background-color:whitesmoke;
+}
+
+.component-button-panel > div {
+  width: 100%;
+  margin-bottom: 1px;
+  flex: 1 0 auto;
+  display: flex;
+}
